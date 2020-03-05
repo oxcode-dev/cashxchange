@@ -1,0 +1,36 @@
+.converter{
+    margin: 50px 50px 0 50px;
+    padding: 0 50px
+}
+.converter-form{
+    margin-top: 20px;
+}
+.label{
+    font-size: 11px !important;
+    color: darkgray !important;
+}
+.field{
+    margin-top: 20px;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #48c774;
+}
+.input, .select select, .textarea {
+    background-color: #fff;
+    border-color: #d6eceb;
+    border-radius: 0 !important;
+    color: #71ab85;
+    height: 40px;
+}
+.result{
+    margin: 30px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .converter{
+        margin: 20px !important;
+        padding: 0 20px !important;
+    }
+}
